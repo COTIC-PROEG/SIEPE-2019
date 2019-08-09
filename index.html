@@ -53,13 +53,16 @@
           <a class='nav-link' href='#!/' id='step-one--btn'>Apresentação</a>
         </li>
         <li class='nav-item'>
-          <a class='nav-link' href='#!/' id='step-two--btn'>Inscrição/Programação</a>
+          <a class='nav-link' href='#!/' id='step-two--btn'>Inscrição</a>
         </li>
         <li class='nav-item'>
-          <a class='nav-link' href='#!/' id='step-three--btn'>Localização</a>
+          <a class='nav-link' href='#!/' id='step-three--btn'>Programação</a>
         </li>
         <li class='nav-item'>
-          <a class='nav-link' href='#!/' id='step-four--btn'>Realização</a>
+            <a class='nav-link' href='#!/' id='step-three--btn'>Realização</a>
+          </li>
+        <li class='nav-item'>
+          <a class='nav-link' href='#!/' id='step-four--btn'>Localização</a>
         </li>
 
         <!--li class='nav-item dropdown'>
@@ -130,7 +133,7 @@
 
     <!-- Inscreva-se -->
     <div id="step-two" class="pp-wrapper pp-secondary-bg">
-      <h2 class="pp-title">Inscrição / Programação</h2>
+      <h2 class="pp-title">Inscrição</h2>
       <div class="pp-wrapper__inner">
         <div class="swiper-container swiper-container-horizontal">
           <!-- Additional required wrapper -->
@@ -146,8 +149,6 @@
                 <p class="card-text"></p>
                 <a href="https://docs.google.com/forms/d/1MsrFZMhaptc2ELSvqOzWzuMM_m1K4jZi97OMzVquVAw/edit"
                   target="_blank" class="btn btn-primary">Inscreva-se</a>
-                <a href="https://docs.google.com/forms/d/1MlcwC_Qh8tXm_JmXsGLGm9l5zOZGeznd6nI-daYBU0c/viewform?edit_requested=true"
-                  target="_blank" class="btn btn-primary">Programação</a>
               </div>
             </div>
 
@@ -161,8 +162,6 @@
                 <p class="card-text"></p>
                 <a href="http://seminariopibic.ufpa.br/login.php" target="_blank"
                   class="btn btn-primary">Inscreva-se</a>
-                <a href="https://docs.google.com/forms/d/1MlcwC_Qh8tXm_JmXsGLGm9l5zOZGeznd6nI-daYBU0c/viewform?edit_requested=true"
-                  target="_blank" class="btn btn-primary">Programação</a>
               </div>
             </div>
 
@@ -175,8 +174,6 @@
                 <h5 class="card-title">JORNADA DE EXTENSÃO</h5>
                 <p class="card-text"></p>
                 <a href="#" class="btn btn-primary">Inscreva-se</a>
-                <a href="https://docs.google.com/forms/d/1MlcwC_Qh8tXm_JmXsGLGm9l5zOZGeznd6nI-daYBU0c/viewform?edit_requested=true"
-                  target="_blank" class="btn btn-primary">Programação</a>
               </div>
             </div>
           </div>
@@ -196,13 +193,67 @@
 
     <!-- Localização -->
     <div id="step-three" class="pp-wrapper pp-tertiary-bg">
-      <h2 class="pp-title">Localização</h2>
+      <h2 class="pp-title">Programação</h2>
       <div class="pp-wrapper__inner">
-        <div class="google-maps center-align">
+          <div class="swiper-container swiper-container-horizontal">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
+              <!-- Slides -->
+              <div class="swiper-slide swiper-slide-active" style="width: 320px; margin-right: 16px;">
+                <div class="pp-card-img __ensino">
+                  <img src="img/ui/placeholder.svg" alt="Card image cap">
+                </div>
+  
+                <div class="card-body">
+                  <h5 class="card-title">SEPEDUC</h5>
+                  <p class="card-text"></p>
+                  <a href="https://docs.google.com/forms/d/1MlcwC_Qh8tXm_JmXsGLGm9l5zOZGeznd6nI-daYBU0c/viewform?edit_requested=true"
+                    target="_blank" class="btn btn-primary">Programação</a>
+                </div>
+              </div>
+  
+              <div class="swiper-slide swiper-slide-next" style="width: 320px; margin-right: 16px;">
+                <div class="pp-card-img __pesquisa">
+                  <img src="img/ui/placeholder.svg" alt="Card image cap">
+                </div>
+  
+                <div class="card-body">
+                  <h5 class="card-title">SEMINIC</h5>
+                  <p class="card-text"></p>
+                  <a href="https://docs.google.com/forms/d/1MlcwC_Qh8tXm_JmXsGLGm9l5zOZGeznd6nI-daYBU0c/viewform?edit_requested=true"
+                    target="_blank" class="btn btn-primary">Programação</a>
+                </div>
+              </div>
+  
+              <div class="swiper-slide" style="width: 320px; margin-right: 16px;">
+                <div class="pp-card-img __extensao">
+                  <img src="img/ui/placeholder.svg" alt="Card image cap">
+                </div>
+  
+                <div class="card-body">
+                  <h5 class="card-title">JORNADA DE EXTENSÃO</h5>
+                  <p class="card-text"></p>
+                  <a href="https://docs.google.com/forms/d/1MlcwC_Qh8tXm_JmXsGLGm9l5zOZGeznd6nI-daYBU0c/viewform?edit_requested=true"
+                    target="_blank" class="btn btn-primary">Programação</a>
+                </div>
+              </div>
+            </div>
+  
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev swiper-button-disabled" tabindex="0" role="button" aria-label="Previous slide"
+              aria-disabled="true"></div>
+            <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-disabled="true"></div>
+  
+            <div class="swiper-pagination swiper-pagination-bullets"><span
+                class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span
+                class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+          </div>
+        <!-- <div class="google-maps center-align">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.4925168744167!2d-48.45861078528192!3d-1.47710943628062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a48d9365c752a5%3A0x83896245ad0dfe08!2sMirante+Do+Rio!5e0!3m2!1spt-BR!2sbr!4v1537545852059"
             width="600" height="450" frameborder="0" style="border:0" allowfullscreen="" class="resp-iframe"></iframe>
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -225,6 +276,18 @@
         <a href='//saest.ufpa.br' target='_blank' rel='nofollow'><img src='img/brand/saest.png' /></a>
       </div>
     </div>
+
+
+    <div id="step-three" class="pp-wrapper pp-quinary-bg">
+        <h2 class="pp-title">Localização</h2>--
+        <div class="pp-wrapper__inner">
+          <div class="google-maps center-align">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.4925168744167!2d-48.45861078528192!3d-1.47710943628062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a48d9365c752a5%3A0x83896245ad0dfe08!2sMirante+Do+Rio!5e0!3m2!1spt-BR!2sbr!4v1537545852059"
+              width="600" height="450" frameborder="0" style="border:0" allowfullscreen="" class="resp-iframe"></iframe>
+          </div>
+        </div>
+      </div>
   </main>
 
   <footer>

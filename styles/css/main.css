@@ -8,7 +8,7 @@ html, body {
 .image-preload {
   width: 0;
   height: 0;
-  background-image: url(../../img/ui/1.svg), url(../../img/ui/atom.svg), url(../../img/ui/book.svg), url(../../img/ui/magnify.svg), url(../../img/ui/microscope.svg), url(../../img/ui/pencil.svg), url(../../img/ui/placeholder.svg), url(../../img/brand/siepe-logo.svg), url(../../img/ui/talk.svg), url(../../img/ui/threejs/nx.jpg), url(../../img/ui/threejs/ny.jpg), url(../../img/ui/threejs/nz.jpg), url(../../img/ui/threejs/px.jpg), url(../../img/ui/threejs/py.jpg), url(../../img/ui/threejs/pz.jpg), url(../../img/ui/threejs/waternormals.jpg)
+  background-image: url(../../img/ui/1.svg), url(../../img/ui/atom.svg), url(../../img/ui/book.svg), url(../../img/ui/magnify.svg), url(../../img/ui/microscope.svg), url(../../img/ui/open-book.svg), url(../../img/ui/placeholder.svg), url(../../img/brand/siepe-logo.svg), url(../../img/ui/talk.svg), url(../../img/ui/threejs/nx.jpg), url(../../img/ui/threejs/ny.jpg), url(../../img/ui/threejs/nz.jpg), url(../../img/ui/threejs/px.jpg), url(../../img/ui/threejs/py.jpg), url(../../img/ui/threejs/pz.jpg), url(../../img/ui/threejs/waternormals.jpg)
 }
 
 main {
@@ -83,7 +83,7 @@ footer {
 
 .pp-primary-bg {
   background-color: #f7b869;
-  background-image: url(../../img/ui/pencil.svg);
+  background-image: url(../../img/ui/open-book.svg);
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: auto 100%;
@@ -109,7 +109,7 @@ footer {
 
 .pp-secondary-bg {
   background-color: #547eac;
-  background-image: url(../../img/ui/magnify.svg);
+  background-image: url(../../img/ui/mapa-siepe.svg);
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: auto 110%
@@ -165,22 +165,22 @@ footer {
 }
 /*inicio da alteração*/
 .pp-quaternary-bg {
-  background-color: rgb(197, 48, 48);
-  background-image: url(../../img/ui/mapa-siepe.svg);
+  background-color: rgb(255, 235, 209);
+  /* background-image: url(../../img/ui/mapa-siepe.svg); */
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: auto 110%
 }
 
 .pp-quaternary-bg--color {
-  background-color: rgb(197, 48, 48);
+  background-color: rgb(255, 235, 209);
 }
 
 .pp-quaternary-bg::before {
   content: '';
   width: 100%;
-  background-color: rgb(197, 48, 48);
-  border-bottom: 3px solid #d86767;
+  background-color:rgb(255, 235, 209);
+  border-bottom: 3px solid #eac9a8;
   position: absolute;
   z-index: 1;
   height: 100px;
@@ -386,7 +386,7 @@ nav {
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, .5);
   border-color: transparent;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgb(110, 110, 110);
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3)
 }
 
@@ -408,7 +408,7 @@ nav {
 
 .navbar-light .navbar-nav .nav-link {
   /* color: rgb(210,126,59); */
-  color: rgb(0,0,0)
+  color: rgb(110, 110, 110);
   padding-left: 16px;
   padding-right: 16px;
   border-bottom: 2px solid transparent
@@ -631,12 +631,12 @@ nav {
 
 .card-body {
   color: #fff;
-  text-align: center
+  text-align: center;
 }
 
 .card-title{
   font-family: 'Nunito', sans-serif;
-  font-weight: 600;
+  font-weight: 595;
 }
 
 @media(min-width: 420px) {

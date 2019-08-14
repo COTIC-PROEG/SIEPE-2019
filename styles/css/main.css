@@ -112,7 +112,7 @@ footer {
   background-image: url(../../img/ui/mapa-siepe.svg);
   background-repeat: no-repeat;
   background-position: 50%;
-  background-size: auto 110%
+  background-size: auto 110%;
 }
 
 .pp-secondary-bg--color {
@@ -165,7 +165,7 @@ footer {
 }
 /*inicio da alteração*/
 .pp-quaternary-bg {
-  background-color: rgb(255, 235, 209);
+  background-color: rgb(227, 235, 162);
   /* background-image: url(../../img/ui/mapa-siepe.svg); */
   background-repeat: no-repeat;
   background-position: 50%;
@@ -173,13 +173,13 @@ footer {
 }
 
 .pp-quaternary-bg--color {
-  background-color: rgb(255, 235, 209);
+  background-color: rgb(227, 235, 162);
 }
 
 .pp-quaternary-bg::before {
   content: '';
   width: 100%;
-  background-color:rgb(255, 235, 209);
+  background-color: rgb(227, 235, 162);
   border-bottom: 3px solid #eac9a8;
   position: absolute;
   z-index: 1;
@@ -191,20 +191,21 @@ footer {
 }
 
 .pp-quinary-bg {
-  background-color: rgb(255, 253, 251);
+  background-color: rgb(255, 235, 209);
   background-repeat: no-repeat;
   background-position: 50%;
-  background-size: auto 110%
+  background-size: auto 110%;
+  
 }
 
 .pp-quinary-bg--color {
-  background-color: rgb(255, 253, 251);
+  background-color: rgb(255, 235, 209);
 }
 
 .pp-quinary-bg::before {
   content: '';
   width: 100%;
-  background-color: rgb(255, 253, 251);
+  background-color: rgb(255, 235, 209);
   border-bottom: 3px solid #f5c17d;
   position: absolute;
   z-index: 1;

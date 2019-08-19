@@ -212,8 +212,8 @@ footer {
   height: 100px;
   top: -20px;
   left: 0;
-  -webkit-transform: skewY(-5deg);
-  transform: skewY(-5deg)
+  -webkit-transform: skewY(5deg);
+  transform: skewY(5deg)
 }
 /*fim da alteração*/
 
@@ -769,6 +769,16 @@ nav {
     background-size: auto 100%
   }
 
+  .pp-quaternary-bg {
+    background-position: 50%;
+    background-size: auto 100%
+  }
+
+  .pp-quinary-bg {
+    background-position: 50%;
+    background-size: auto 100%
+  }
+
   .pp-primary-bg::before {
     height: 120px;
     top: -35px;
@@ -786,6 +796,22 @@ nav {
   }
 
   .pp-tertiary-bg::before {
+    height: 120px;
+    top: -35px;
+    left: 0;
+    -webkit-transform: skewY(5deg);
+    transform: skewY(5deg)
+  }
+
+  .pp-quaternary-bg::before {
+    height: 120px;
+    top: -35px;
+    left: 0;
+    -webkit-transform: skewY(-5deg);
+    transform: skewY(-5deg)
+  }
+
+  .pp-quinary-bg::before {
     height: 120px;
     top: -35px;
     left: 0;

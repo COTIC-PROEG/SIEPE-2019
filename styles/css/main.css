@@ -135,7 +135,7 @@ footer {
 
 .pp-tertiary-bg {
   background-color: #6d63a1;
-  background-image: url(../../img/ui/talk.svg);
+  background-image: url(../../img/ui/diversidade.svg);
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: auto 110%
@@ -165,7 +165,7 @@ footer {
 }
 /*inicio da alteração*/
 .pp-quaternary-bg {
-  background-color: rgb(227, 235, 162);
+  background-color: #6A8E7F;
   /* background-image: url(../../img/ui/mapa-siepe.svg); */
   background-repeat: no-repeat;
   background-position: 50%;
@@ -173,14 +173,14 @@ footer {
 }
 
 .pp-quaternary-bg--color {
-  background-color: rgb(227, 235, 162);
+  background-color: #6A8E7F;
 }
 
 .pp-quaternary-bg::before {
   content: '';
   width: 100%;
-  background-color: rgb(227, 235, 162);
-  border-bottom: 3px solid #eac9a8;
+  background-color: #6A8E7F;
+  border-bottom: 3px solid rgb(127, 168, 151);
   position: absolute;
   z-index: 1;
   height: 100px;
@@ -206,7 +206,7 @@ footer {
   content: '';
   width: 100%;
   background-color: rgb(255, 235, 209);
-  border-bottom: 3px solid #f5c17d;
+  border-bottom: 3px solid #ffffff;
   position: absolute;
   z-index: 1;
   height: 100px;

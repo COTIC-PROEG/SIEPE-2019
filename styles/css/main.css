@@ -4,6 +4,27 @@ html, body {
   position: relative;
     z-index: -6;
 }
+/* Declara a cor global dos containers */
+:root{
+  --pŕimary-color: #f7b869;
+  --primary-color-border: 3px solid #f2c995; 
+
+  --secondary-color: #547eac;
+  --secondary-color-border: 3px solid #6d8fb4;
+
+  --tertiary-color: #6d63a1;
+  --tertiary-color-border: 3px solid #867db4;
+
+  /* --quaternary-color: #6A8E7F;
+  --quaternary-color-border: 3px solid #7fa897; */
+  --quaternary-color: #dbd6d6;
+  --quaternary-color-border: 3px solid #ffffff;
+
+  /* --quinary-color: rgb(219, 214, 214);
+  --quinary-color-border: 3px solid #ffffff; */
+  --quinary-color: #ffebd1; 
+  --quinary-color-border: 3px solid #ffffff; 
+}
 
 .image-preload {
   width: 0;
@@ -82,7 +103,7 @@ footer {
 }
 
 .pp-primary-bg {
-  background-color: #f7b869;
+  background-color: var(--pŕimary-color);
   background-image: url(../../img/ui/open-book.svg);
   background-repeat: no-repeat;
   background-position: 50%;
@@ -90,14 +111,14 @@ footer {
 }
 
 .pp-primary-bg--color {
-  background-color: #f7b869
+  background-color: var(--pŕimary-color);
 }
 
 .pp-primary-bg::before {
   content: '';
   width: 100%;
-  background-color: #f7b869;
-  border-bottom: 3px solid #f2c995;
+  background-color: var(--pŕimary-color);
+  border-bottom: var(--primary-color-border);
   position: absolute;
   z-index: 0;
   height: 100px;
@@ -108,7 +129,7 @@ footer {
 }
 
 .pp-secondary-bg {
-  background-color: #547eac;
+  background-color: var(--secondary-color);
   background-image: url(../../img/ui/mapa-siepe.svg);
   background-repeat: no-repeat;
   background-position: 50%;
@@ -116,14 +137,14 @@ footer {
 }
 
 .pp-secondary-bg--color {
-  background-color: #547eac
+  background-color: var(--secondary-color);
 }
 
 .pp-secondary-bg::before {
   content: '';
   width: 100%;
-  background-color: #547eac;
-  border-bottom: 3px solid #6d8fb4;
+  background-color: var(--secondary-color);
+  border-bottom: var(--secondary-color-border);
   position: absolute;
   z-index: 1;
   height: 100px;
@@ -134,7 +155,7 @@ footer {
 }
 
 .pp-tertiary-bg {
-  background-color: #6d63a1;
+  background-color: var(--tertiary-color);
   background-image: url(../../img/ui/diversidade.svg);
   background-repeat: no-repeat;
   background-position: 50%;
@@ -142,7 +163,7 @@ footer {
 }
 
 .pp-tertiary-bg--color {
-  background-color: #6d63a1
+  background-color: var(--tertiary-color);
 }
 
 .google-maps{
@@ -153,8 +174,8 @@ footer {
 .pp-tertiary-bg::before {
   content: '';
   width: 100%;
-  background-color: #6d63a1;
-  border-bottom: 3px solid #867db4;
+  background-color: var(--tertiary-color);
+  border-bottom: var(--tertiary-color-border);
   position: absolute;
   z-index: 0;
   height: 100px;
@@ -165,7 +186,7 @@ footer {
 }
 /*inicio da alteração*/
 .pp-quaternary-bg {
-  background-color: #6A8E7F;
+  background-color: var(--quaternary-color);;
   /* background-image: url(../../img/ui/mapa-siepe.svg); */
   background-repeat: no-repeat;
   background-position: 50%;
@@ -173,14 +194,14 @@ footer {
 }
 
 .pp-quaternary-bg--color {
-  background-color: #6A8E7F;
+  background-color: var(--quaternary-color);;
 }
 
 .pp-quaternary-bg::before {
   content: '';
   width: 100%;
-  background-color: #6A8E7F;
-  border-bottom: 3px solid rgb(127, 168, 151);
+  background-color: var(--quaternary-color);
+  border-bottom: var(--quaternary-color-border);
   position: absolute;
   z-index: 1;
   height: 100px;
@@ -191,7 +212,7 @@ footer {
 }
 
 .pp-quinary-bg {
-  background-color: rgb(255, 235, 209);
+  background-color: var(--quinary-color);
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: auto 110%;
@@ -199,14 +220,14 @@ footer {
 }
 
 .pp-quinary-bg--color {
-  background-color: rgb(255, 235, 209);
+  background-color: var(--quinary-color);
 }
 
 .pp-quinary-bg::before {
   content: '';
   width: 100%;
-  background-color: rgb(255, 235, 209);
-  border-bottom: 3px solid #ffffff;
+  background-color: var(--quinary-color);
+  border-bottom: var(--quinary-color-border);
   position: absolute;
   z-index: 1;
   height: 100px;

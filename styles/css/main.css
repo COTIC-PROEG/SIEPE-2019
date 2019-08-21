@@ -13,17 +13,17 @@ html, body {
   --secondary-color-border: 3px solid #6d8fb4;
 
   --tertiary-color: #6d63a1;
-  --tertiary-color-border: 3px solid #867db4;
+  --tertiary-color-border: 3px solid #867db4; 
 
   /* --quaternary-color: #6A8E7F;
   --quaternary-color-border: 3px solid #7fa897; */
-  --quaternary-color: #BCB4D1;
+  --quaternary-color: #bcb4d1;
   --quaternary-color-border: 3px solid #fff;
 
   /* --quinary-color: rgb(219, 214, 214);
   --quinary-color-border: 3px solid #ffffff; */
-  --quinary-color: #BCB4D1; 
-  --quinary-color-border: 3px solid #fff; 
+  --quinary-color: #bcb4d1;
+  --quinary-color-border: 3px solid #fff;
 }
 
 .image-preload {
@@ -186,15 +186,15 @@ footer {
 }
 /*inicio da alteração*/
 .pp-quaternary-bg {
-  background-color: var(--quaternary-color);;
-  /* background-image: url(../../img/ui/mapa-siepe.svg); */
+  background-color: var(--quaternary-color);
+  /* background-image: url(../../img/ui/mapa2.svg); */
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: auto 110%
 }
 
 .pp-quaternary-bg--color {
-  background-color: var(--quaternary-color);;
+  background-color: var(--quaternary-color);
 }
 
 .pp-quaternary-bg::before {
@@ -213,6 +213,7 @@ footer {
 
 .pp-quinary-bg {
   background-color: var(--quinary-color);
+  /* background-image: url(../../img/ui/mapa3.svg); */
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: auto 110%;
@@ -471,7 +472,7 @@ nav {
   background-attachment: fixed;
   position: relative;
   backface-visibility: hidden;
-  margin-bottom: 6%;
+  margin-bottom: 3%;
 }
 
 .pp-parallax::before {
@@ -536,12 +537,13 @@ nav {
   width: 70px;
   height: 70px;
   position: absolute;
-  bottom: 160px;
+  bottom: 50px;
   left: 50%;
   transform: translateX(-50%);
   cursor: pointer;
-  display: none
+  display: none;
 }
+
 
 .pp-parallax video {
   width: 100%;
@@ -1148,23 +1150,6 @@ nav {
     margin-top: -20px
   }
 
-  .pp-parallax__scroll-btn {
-    content: '';
-    background-color: transparent;
-    background-image: url(../../img/ui/scroll.svg);
-    background-size: auto 100%;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    width: 70px;
-    height: 70px;
-    position: absolute;
-    bottom: 160px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-    display: block;
-    z-index: 10
-  }
 }
 
 .anim--logo-entrance {

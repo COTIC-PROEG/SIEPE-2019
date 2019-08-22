@@ -18,12 +18,12 @@ body {
 
   /* --quaternary-color: #6A8E7F;
   --quaternary-color-border: 3px solid #7fa897; */
-  --quaternary-color: #226834;
+  --quaternary-color: #bcb4d1;
   --quaternary-color-border: 3px solid #fff;
 
   /* --quinary-color: rgb(219, 214, 214);
   --quinary-color-border: 3px solid #ffffff; */
-  --quinary-color: #226834;
+  --quinary-color: #bcb4d1;
   --quinary-color-border: 3px solid #fff;
 }
 
@@ -46,7 +46,7 @@ main {
 }
 
 footer {
-  margin-top: -10px;
+  margin-top: 0px;
 }
 
 .canvas-3d {
@@ -89,7 +89,7 @@ footer {
 
 .pp-wrapper--footer__bottom {
   position: absolute;
-  bottom: 20px;
+  bottom: 0px;
   left: 0;
   width: 100%;
   text-align: center;
@@ -195,7 +195,6 @@ footer {
 /*inicio da alteração*/
 .pp-quaternary-bg {
   background-color: var(--quaternary-color);
-  /* background-image: url(../../img/ui/mapa2.svg); */
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: auto 110%;
@@ -221,10 +220,10 @@ footer {
 
 .pp-quinary-bg {
   background-color: var(--quinary-color);
-  /* background-image: url(../../img/ui/mapa3.svg); */
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-size: auto 110%;
+  background: url(../../img/ui/teste.svg);
+  width: 100vw;
+  background-size: cover !important;
+  background-position: center !important;
 }
 
 .pp-quinary-bg--color {
@@ -669,12 +668,23 @@ nav {
   font-weight: 595;
 }
 
+@media (min-width: 360px) {
+  .pp-quinary-bg {
+    background-color: var(--quinary-color);
+    background: url(../../img/ui/teste.svg);
+    width: 100vw;
+    /* background-size: cover !important; */
+    background-position: center !important;
+  }
+
+}
 @media (min-width: 420px) {
   main {
     padding: 0;
     margin-top: -5px;
   }
 
+  
   .pp-presentation-img {
     text-align: center;
   }

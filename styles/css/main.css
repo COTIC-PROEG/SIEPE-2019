@@ -18,12 +18,12 @@ body {
 
   /* --quaternary-color: #6A8E7F;
   --quaternary-color-border: 3px solid #7fa897; */
-  --quaternary-color: #bcb4d1;
+  --quaternary-color: #226834;
   --quaternary-color-border: 3px solid #fff;
 
   /* --quinary-color: rgb(219, 214, 214);
   --quinary-color-border: 3px solid #ffffff; */
-  --quinary-color: #bcb4d1;
+  --quinary-color: #226834;
   --quinary-color-border: 3px solid #fff;
 }
 
@@ -872,7 +872,7 @@ nav {
   }
 
   .pp-parallax{
-    padding-bottom: 50%;
+    padding-bottom: 60%;
   }
 
   .pp-parallax__layer--1::after {

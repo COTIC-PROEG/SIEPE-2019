@@ -855,10 +855,6 @@ nav {
 }
 
 @media (max-width: 600px) {
-  main {
-    padding: 0;
-    margin-top: 100px;
-  }
   
   .pp-primary-bg::before {
     height: 115px;
@@ -868,14 +864,15 @@ nav {
     transform: skewY(5deg);
   }
 
-  .pp-parallax {
-    margin-bottom: -12%;
-  }
 
   .pp-parallax__layer--1 {
     background-image: url(../../img/ui/2.svg);
-    background-size: 80%;
+    background-size: 100%;
     background-position: center 0;
+  }
+
+  .pp-parallax{
+    padding-bottom: 50%;
   }
 
   .pp-parallax__layer--1::after {
@@ -892,6 +889,7 @@ nav {
     position: absolute;
     top: 0;
     left: 0;
+    
   }
 
 

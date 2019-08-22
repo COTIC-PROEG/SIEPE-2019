@@ -4,6 +4,7 @@ body {
   width: 100%;
   position: relative;
   z-index: -6;
+  overflow-x: hidden;
 }
 /* Declara a cor global dos containers */
 :root {
@@ -411,7 +412,7 @@ nav {
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.5);
   border-color: transparent;
-  background-color: rgb(110, 110, 110);
+  background-color: #C2B1AC;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -668,6 +669,12 @@ nav {
   font-weight: 595;
 }
 
+@media (max-width: 990px){
+  .nav-link {
+    padding: 4px 16px;
+  }
+
+}
 @media (min-width: 360px) {
   .pp-quinary-bg {
     background-color: var(--quinary-color);

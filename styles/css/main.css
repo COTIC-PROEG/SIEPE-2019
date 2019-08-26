@@ -221,7 +221,7 @@ footer {
 
 .pp-quinary-bg {
   background-color: var(--quinary-color);
-  background: url(../../img/ui/teste.svg);
+  background: url(../../img/ui/Mirante.jpg);
   width: 100vw;
   background-size: cover !important;
   background-position: center !important;
@@ -678,7 +678,7 @@ nav {
 @media (min-width: 360px) {
   .pp-quinary-bg {
     background-color: var(--quinary-color);
-    background: url(../../img/ui/teste.svg);
+    background: url(../../img/ui/Mirante.jpg);
     width: 100vw;
     /* background-size: cover !important; */
     background-position: center !important;

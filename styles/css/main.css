@@ -90,11 +90,11 @@ footer {
 
 .pp-wrapper--footer__bottom {
   position: absolute;
-  bottom: 0px;
+  bottom: 2px;
   left: 0;
   width: 100%;
   text-align: center;
-  padding: 16px;
+  padding: 5px auto;
 }
 
 .pp-wrapper__inner {
@@ -221,7 +221,7 @@ footer {
 
 .pp-quinary-bg {
   background-color: var(--quinary-color);
-  background: url(../../img/ui/Mirante.jpg);
+  background: url(../../img/ui/Mirante.png);
   width: 100vw;
   background-size: cover !important;
   background-position: center !important;
@@ -678,7 +678,7 @@ nav {
 @media (min-width: 360px) {
   .pp-quinary-bg {
     background-color: var(--quinary-color);
-    background: url(../../img/ui/Mirante.jpg);
+    background: url(../../img/ui/Mirante.png);
     width: 100vw;
     /* background-size: cover !important; */
     background-position: center !important;
@@ -883,7 +883,7 @@ nav {
 
 
   .pp-parallax__layer--1 {
-    background-image: url(../../img/ui/2.svg);
+    background-image: url(../../img/ui/2.png);
     background-size: 100%;
     background-position: center 0;
   }

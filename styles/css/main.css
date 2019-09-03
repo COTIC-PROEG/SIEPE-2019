@@ -31,7 +31,7 @@ body {
 .image-preload {
   width: 0;
   height: 0;
-  background-image: url(../../img/ui/1.svg), url(../../img/ui/atom.svg),
+  background-image: url(../../img/ui/1.png), url(../../img/ui/atom.svg),
     url(../../img/ui/book.svg), url(../../img/ui/magnify.svg),
     url(../../img/ui/microscope.svg), url(../../img/ui/open-book.svg),
     url(../../img/ui/placeholder.svg), url(../../img/brand/siepe-logo.svg),
@@ -512,7 +512,7 @@ nav {
 }
 
 .pp-parallax__layer--1 {
-  background-image: url(../../img/ui/1.svg);
+  background-image: url(../../img/ui/1.png);
   background-size: 100%;
   background-position: center 0;
 }

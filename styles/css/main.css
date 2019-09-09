@@ -517,6 +517,23 @@ nav {
   background-position: center 0;
 }
 
+#clicavel {
+  position: fixed;
+  background-image: url(../../img/ui/g3819.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 35%;
+  top: 60%;
+  left: 70%;
+}
+
+#clicavel > a {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
 .pp-parallax__layer--1::after {
   content: "";
   width: 100%;
@@ -531,42 +548,6 @@ nav {
   position: absolute;
   top: 0;
   left: 0;
-}
-
-.pp-parallax__scroll-btn {
-  content: "";
-  background-color: transparent;
-  background-image: url(../../img/ui/scroll.svg);
-  background-size: auto 100%;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  width: 70px;
-  height: 70px;
-  position: absolute;
-  bottom: 50px;
-  left: 50%;
-  transform: translateX(-50%);
-  cursor: pointer;
-  display: none;
-}
-
-.pp-parallax video {
-  width: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  -webkit-transform: scale(0.8);
-  transform: scale(0.8);
-}
-
-.pp-parallax img {
-  width: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  opacity: 0;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
 .swiper-container {

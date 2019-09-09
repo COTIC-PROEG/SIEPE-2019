@@ -12,12 +12,15 @@
   <link rel='stylesheet' href='styles/libs/bootstrap/4.1.0/bootstrap.min.css' />
   <link rel='stylesheet' href='styles/libs/swiper/4.2.2/swiper.min.css' />
   <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
 
   <link rel='stylesheet' href='styles/css/main.css' />
   <script type="text/javascript" charset="UTF-8"
     src="https://maps.googleapis.com/maps-api-v3/api/js/37/5/intl/pt_br/common.js"></script>
   <script type="text/javascript" charset="UTF-8"
     src="https://maps.googleapis.com/maps-api-v3/api/js/37/5/intl/pt_br/util.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+            
   <style>
     .resp-iframe {
       position: relative;
@@ -33,7 +36,9 @@
 </head>
 
 <body>
-  <div class='image-preload'></div>
+  <div class='image-preload'>
+
+  </div>
 
   <nav class='navbar position-fixed navbar-expand-lg navbar-light bg-light'>
     <a class='navbar-brand' href='./'>
@@ -79,14 +84,18 @@
   </nav>
 
   <header class='pp-parallax'>
-    <div class='pp-parallax__layer pp-parallax__layer--1'></div>
+    <div class='pp-parallax__layer pp-parallax__layer--1'>
+      
+    </div>
 
     <!--video src='vids/siepe anim.mp4' autoplay muted></video-->
-    <img src='img/ui/placeholder.svg' />
-
+    <img src='img/ui/placeholder.svg'/>
+    <!-- <map name="link">
+        <area shape="rect" coords="1091,572,1633,914" href="sun.htm" alt="Sun">
+    </map> -->
     <div class='pp-parallax__scroll-btn' title='Rolar a página'></div>
   </header>
-
+  <div id="clicavel"><a href="#">aaaa</a></div>
 
   <main>
     <!-- Apresentação -->
@@ -95,8 +104,11 @@
       <div class='pp-wrapper__inner2'>
         <div class='pp-centered-box pp-centered-box--medium'>
           <div class='pp-presentation-img'>
-            <img src='img/brand/siepe-logo.svg' alt='Logo SIEPE' />
+            <img src='img/brand/siepe-logo.svg' alt='Logo SIEPE'  usemap="#link"/> 
+            
+            
           </div>
+          
           <hr class='my-4'>
           <div>O <strong>2º SIEPE - SEMINÁRIO INTEGRADO – ENSINO, PESQUISA, EXTENSÃO</strong>, da Universidade Federal
             do Pará (UFPA) oferece aos alunos de graduação uma oportunidade de aprimorar sua formação acadêmica, a
@@ -107,7 +119,8 @@
             preparando o discente para
             uma
             ação futura tanto em instituições acadêmicas de ensino e pesquisa, quanto em outras funções do campo
-            profissional.</div>
+            profissional.
+            </div>
           
           <hr class='my-4'>
 

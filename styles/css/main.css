@@ -649,15 +649,13 @@ nav {
   }
 
   #clicavel {
-    bottom: 52vh;
-    right: 2vw;
-    
+    bottom: 55vh;
+    right: 5vw;
   }
 
   #clicavel > img {
     width: 35vw;
     height: 15vh;
-   
   }
 
 
@@ -680,73 +678,18 @@ nav {
 }
 }
 
-@media (min-width: 360px)and (max-width: 390px) {     
+@media (min-width: 360px) {
 
-  .pp-primary-bg::before {
-    height: 115px;
-    top: -45px;
-    left: 0;
-    -webkit-transform: skewY(5deg);
-    transform: skewY(5deg);
+  .pp-quinary-bg {
+    background-color: var(--quinary-color);
+    background: url(../../img/ui/Mirante.png);
+    width: 100vw;
+    /* background-size: cover !important; */
+    background-position: center !important;
   }
-
-
-  .pp-parallax__layer--1 {
-    background-image: url(../../img/ui/2.png);
-    background-size: 100%;
-    background-position: center 0;
-  }
-
-  .pp-parallax{
-    padding-bottom: 60%;
-    max-height: 55vh;
-  }
-
-  #clicavel {
-    bottom: 80vh;
-    right: 5vw;
-   
-  }
-
-  #clicavel > img {
-    width: 35vw;
-    height: 15vh;
-  
-    }
-
-  .pp-parallax__layer--1::after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    /* background-image: url(../../img/ui/paralax-info.png); */
-    background-size: 25% auto;
-    background-position-x: 100%;
-    background-position-y: 140%;
-    background-repeat: no-repeat;
-    backface-visibility: hidden;
-    z-index: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    
-  }
-
 
 }
-@media (max-widht: 600px) { 
-
-  #clicavel {
-    bottom: 40vh;
-    right: 5vw;
-   
-  }
-
-  #clicavel > img {
-    width: 35vw;
-    height: 15vh;
-    
-  }
-
+@media (min-width: 420px) {
   main {
     padding: 0;
     margin-top: -5px;
@@ -829,8 +772,6 @@ nav {
     /* -webkit-transform: skewY(5deg);
     transform: skewY(5deg) */
   }
-
-
 }
 
 @media (min-width: 576px) {
@@ -932,10 +873,9 @@ nav {
     display: inline-table;
     width: 100%;
   }
-
 }
 
- @media (max-width: 400px) {      /* ray*/
+@media (max-width: 600px) {
   
   .pp-primary-bg::before {
     height: 115px;
@@ -958,60 +898,21 @@ nav {
   }
 
   #clicavel {
-    bottom: 45vh;
+    bottom: 55vh;
     right: 5vw;
-   
   }
 
   #clicavel > img {
     width: 35vw;
-    height: 15vh; 
-    
-    }
+    height: 15vh;
   }
 
-  @media (min-width: 400px)and (max-width:500px){   /* nicoly*/
-
-    #clicavel {
-      bottom: 46vh;
-      right: 5vw;
-     
-    }
-  
-    #clicavel > img {
-      width: 35vw;
-      height: 15vh; 
-      
-      }
-
-  }
-
-  .pp-primary-bg::before {
-    height: 115px;
-    top: -45px;
-    left: 0;
-    -webkit-transform: skewY(5deg);
-    transform: skewY(5deg);
-  }
-
-
-  .pp-parallax__layer--1 {
-    background-image: url(../../img/ui/2.png);
-    background-size: 100%;
-    background-position: center 0;
-  }
-
-  .pp-parallax{
-    padding-bottom: 60%;
-    max-height: 55vh;
-  }
-
-  /* .pp-parallax__layer--1::after {
+  .pp-parallax__layer--1::after {
     content: "";
     width: 100%;
-    height: 100%; */
+    height: 100%;
     /* background-image: url(../../img/ui/paralax-info.png); */
-    /* background-size: 25% auto;
+    background-size: 25% auto;
     background-position-x: 100%;
     background-position-y: 140%;
     background-repeat: no-repeat;
@@ -1021,11 +922,10 @@ nav {
     top: 0;
     left: 0;
     
-  } 
+  }
 
 
-/* } */
-
+}
 
 @media (min-width: 768px) {
   main {

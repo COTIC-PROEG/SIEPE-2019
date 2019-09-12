@@ -522,7 +522,15 @@ nav {
   width: 30vw;
   height: 35vh;
 }
-
+.main-screen{
+  width: 100vh;
+  height: 100vh;
+}
+.bottom-right{
+  position: fixed;
+  bottom:0;
+  right: 0;
+}
 .pp-parallax__layer--1::after {
   content: "";
   width: 100%;
@@ -641,7 +649,8 @@ nav {
   font-weight: 595;
 }
 
-@media (min-width: 601px) and (max-width: 800px){
+@media (min-width: 601px) and (max-width: 1024px) and (min-height: 1000px) {
+
 
   .pp-parallax{
     
@@ -649,8 +658,8 @@ nav {
   }
 
   #clicavel {
-    bottom: 55vh;
-    right: 5vw;
+    bottom: 55%;
+    right: 0;
   }
 
   #clicavel > img {
@@ -898,8 +907,8 @@ nav {
   }
 
   #clicavel {
-    bottom: 55vh;
-    right: 5vw;
+    bottom: 52.5%;
+    right: 0;
   }
 
   #clicavel > img {
